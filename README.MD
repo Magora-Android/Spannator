@@ -46,18 +46,18 @@ then create a Spannee instance
 
 and load the string
 
-`val textView; TextView = ...`
+    val textView: TextView = ...
 
-`textView.text = spannator(R.string.text_spannee_bg_and_color)`
+    textView.text = spannator(R.string.text_spannee_bg_and_color)
 
 **Also there's a "clickable" span attribute**
 
     <string name="text_spannee_clickable">This is <annotation clickable="CustomTag">Custom clickable text</annotation> span</string>
 
-`val textView; TextView = ...`
+    val textView: TextView = ...
 
-`textView.text = spannator(R.string.text_spannee_clickable) { tag ->
-    Toast.makeText(this, "Clicked at tag", Toast.LENGTH_SHORT).show()
-}`
+    textView.text = spannator(R.string.text_spannee_clickable) { tag ->
+        Toast.makeText(this, "Clicked at tag", Toast.LENGTH_SHORT).show()
+    }
 
 ... and use the power of Spannator
