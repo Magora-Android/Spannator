@@ -37,16 +37,20 @@ like this:
     <string name="text_spannee_bg_and_color"><annotation backgroundColor="#D81B60">Background</annotation> span, <annotation textColor="#4500B2">text color</annotation> span and <annotation backgroundColor="#D81B60"><annotation textColor="#FFFFFF">all together</annotation></annotation></string>
 
 or like this:
+
     <string name="text_spannee_url">This is <annotation url="https://google.com">Clickable url</annotation> span</string>
 
 then create a Spannee instance
+
 `val spannator = Spannee(resources)`
 
 and load the string
+
 `val textView; TextView = ...`
 `textView.text = spannator(R.string.text_spannee_bg_and_color)`
 
 **Also there's a "clickable" span attribute**
+
     <string name="text_spannee_clickable">This is <annotation clickable="CustomTag">Custom clickable text</annotation> span</string>
 
 `val textView; TextView = ...`
