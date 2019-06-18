@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spannee_1"
+        android:textSize="16sp"
+        tools:text="@string/text_spannee_bg_and_color"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spannee_2"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"
+        tools:text="@string/text_spannee_size_and_tf"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spannee_3"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"
+        tools:text="@string/text_spannee_url"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spannee_4"
+        android:layout_marginTop="24dp"
+        android:textSize="16sp"
+        tools:text="@string/text_spannee_clickable"/>
+
+</LinearLayout>

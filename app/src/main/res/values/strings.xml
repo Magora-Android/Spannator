@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Spannator</string>
+    <string name="text_spannee_bg_and_color"><annotation backgroundColor="#D81B60">Background</annotation> span, <annotation textColor="#4500B2">text color</annotation> span and <annotation backgroundColor="#D81B60"><annotation textColor="#FFFFFF">all together</annotation></annotation></string>
+    <string name="text_spannee_size_and_tf"><annotation textSizeSp="24">Text size</annotation> span, <annotation typeface="monospace">typeface monospace</annotation> span and <annotation textSizeSp="24"><annotation typeface="monospace">all together</annotation></annotation></string>
+    <string name="text_spannee_url">This is <annotation url="https://google.com">Clickable url</annotation> span</string>
+    <string name="text_spannee_clickable">This is <annotation clickable="CustomTag">Custom clickable text</annotation> span</string>
+</resources>

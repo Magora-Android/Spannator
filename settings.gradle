@@ -1,0 +1,2 @@
+include ':app', ':spannator'
+rootProject.name='Spannator'
